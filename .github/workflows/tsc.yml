@@ -15,6 +15,6 @@ jobs:
       - name: Install modules
         run: npm install
       - name: Install TypeScript
-        run: npm i typescript -g
+        run: npm i tsc -g
       - name: Compile
         run: tsc
